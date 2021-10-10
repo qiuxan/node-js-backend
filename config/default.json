@@ -1,6 +1,6 @@
 {
   "jwtPrivateKey": "unsecureKey",
-  "db": "mongodb://localhost/vidly",
+  "db": "mongodb://vidlyuser:<password>@vidly-shard-00-00.dpp4m.mongodb.net:27017,vidly-shard-00-01.dpp4m.mongodb.net:27017,vidly-shard-00-02.dpp4m.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-8e4ed1-shard-0&authSource=admin&retryWrites=true&w=majority",
   "port": "3900",
   "requiresAuth": true
 }
